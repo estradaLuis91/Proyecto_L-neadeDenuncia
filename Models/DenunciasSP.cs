@@ -2,11 +2,12 @@
 {
     public class DenunciaSP
     {
-        public string Folio { get; set; }
-        public string Status { get; set; }
-        public string Comentarios { get; set; }
-        public int Id { get; set; }
-        public  string User_Password { get; set; }
+        public string ?Folio { get; set; }
+        public string? Status { get; set; }
+        public string? Comentarios { get; set; }
+        public int? Id { get; set; }
+        public  string? User_Password { get; set; }
+        public string? withComm { get; set; }
 
     }
 }

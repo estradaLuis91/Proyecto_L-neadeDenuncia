@@ -16,6 +16,8 @@ namespace Linea_Denuncia_API.Models
         public DbSet<State> States { get; set; }
         public DbSet<Denuncia> Denuncia { get; set; }
         public DbSet<DenunciaSP> DenunciaSP { get; set; }
+        public DbSet<Status_Denuncia> Status_Denuncia { get; set; }
+
 
     }
 }

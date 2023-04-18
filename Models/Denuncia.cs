@@ -15,7 +15,5 @@
         public string User_Password { get; set; }
         public string Detalle { get; set; }
 
-
-
     }
 }
